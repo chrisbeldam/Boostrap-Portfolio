@@ -26,6 +26,7 @@ img {
 h1, h2, h3, h4, h5 {
  font-family: proxima-nova,sans-serif;
  font-style: normal;
+ text-align:center;
 } 
 
 h3 {
@@ -37,11 +38,7 @@ h3 {
 }
 
 header {
- background:
- linear-gradient(
- rgba(224,204,200, 1.0), 
- rgba(224,204,200, 0.90)
- ),
+ background-color:  rgb(10,129,209); 
  /* bottom, image */
  url(img/laptop.jpg);
  background-size: cover;
@@ -124,10 +121,10 @@ header {
 }
 .button {
  padding:5% 3%;
- border: 3px solid #e0ccc8;
+ border: 3px solid rgb(10,129,209); 
  letter-spacing:0.2em;
  text-decoration:none;
- color:#e0ccc8;
+ color:rgb(10,129,209); 
  text-align:center;
  display:block;
  font-weight:600;
@@ -136,7 +133,7 @@ header {
 }
 .button:hover {
  color:#fff;
- background-color:#e0ccc8;
+ background-color:rgb(10,129,209); 
 }
 .image-area {
  width:480px;
@@ -184,7 +181,7 @@ header {
 }
 
 footer {
- background-color:#E0CCC8;
+ background-color:rgb(10,129,209); ;
  color:#fff;
  padding:2% 0;
  width:100%;
@@ -203,6 +200,10 @@ footer {
  color: #fff;
  letter-spacing: .03em;
  font-size:1em;
+}
+
+.footer-content p {
+    text-align: center;
 }
 
 .credit {
