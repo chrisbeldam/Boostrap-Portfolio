@@ -38,13 +38,14 @@ h3 {
 }
 
 header {
- background-color:  rgb(10,129,209); 
- /* bottom, image */
- url(img/laptop.jpg);
+ background-color: rgb(10,129,209); 
  background-size: cover;
  background-position: center top;
  width:100%;
 }
+
+/*Introduction Section CSS*/
+
 .introduction {
  max-width: 960px;
  margin:0 auto;
@@ -70,6 +71,8 @@ header {
  letter-spacing:0.09em;
 }
 
+/*Whole website wrapper*/
+
 .wrapper {
  max-width:960px;
  margin:0 auto;
@@ -77,6 +80,9 @@ header {
  -webkit-animation-delay: 4s; /* Chrome, Safari, Opera */
  animation-delay: 2s;
 }
+
+/*About Section CSS*/
+
 .about {
  padding:4% 0;
 }
@@ -95,6 +101,8 @@ header {
  color:#E1CCC9;
  border-bottom:2px solid;
 }
+
+/*Work Section CSS*/
 
 .work {
  height:300px;
@@ -123,6 +131,10 @@ header {
  letter-spacing: .03em;
  font-size:1em;
 }
+
+
+/*Button CSS*/
+
 .button {
  padding:5% 3%;
  border: 3px solid rgb(10,129,209); 
@@ -144,6 +156,8 @@ header {
  height:300px;
  overflow:hidden;
 }
+
+/*Image floating properties*/
 .left {
  float:left;
 }
@@ -151,13 +165,17 @@ header {
  float:right;
 }
 
+/*Contact CSS*/
+
 .contact {
  width:100%;
  border: 3px solid rgb(10,129,209); 
  padding:5% 0;
  margin-top:5%;
+ margin-bottom: 5px;
  clear:both;
 }
+
 .contact-content {
  max-width:960px;
  margin:0 auto;
@@ -185,6 +203,9 @@ header {
  background-position: center top;
 }
 
+
+/*Footer CSS*/
+
 footer {
  background-color:rgb(10,129,209); ;
  color:#fff;
@@ -209,4 +230,5 @@ footer {
 
 .footer-content p {
     text-align: center;
+    margin: 9px 0 13px;
 }
