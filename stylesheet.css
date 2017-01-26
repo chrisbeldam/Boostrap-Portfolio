@@ -119,7 +119,7 @@ header {
  float: left;
  text-align:left;
  width:480px;
- background-color:#fff;
+ background-color:white;
  height:100%;
 }
 .text-box-content {
@@ -148,7 +148,7 @@ header {
  margin-top:4%;
 }
 .button:hover {
- color:#fff;
+ color:white;
  background-color:rgb(10,129,209); 
 }
 .image-area {
@@ -184,7 +184,7 @@ header {
 .contact-content h4 {
  font-size:1.875em;
  padding:1% 0;
- color:#fff;
+ color:white;
  font-weight:600;
  letter-spacing:0.04em;
 }
@@ -208,7 +208,7 @@ header {
 
 footer {
  background-color:rgb(10,129,209); ;
- color:#fff;
+ color:white;
  padding:2% 0;
  width:100%;
  clear:both;
@@ -223,7 +223,7 @@ footer {
  font-style: normal;
  font-weight: 300;
  line-height: 1.4;
- color: #fff;
+ color: white;
  letter-spacing: .03em;
  font-size:1em;
 }
