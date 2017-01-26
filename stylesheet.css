@@ -177,9 +177,10 @@ header {
 
 .image-divider {
  padding:15% 0;
+ margin-top:60px;
  background:
  /* bottom, image */
- url(img/workspace.jpg);
+ url(img/desk.jpg);
  background-size: cover;
  background-position: center top;
 }
@@ -208,27 +209,4 @@ footer {
 
 .footer-content p {
     text-align: center;
-}
-
-.credit {
- float:left;
-}
-
-.social {
- float:right;
-}
-
-.social li {
- display:inline;
-}
-
-.social li a {
- color:#fff;
- padding:0.2em;
- font-size:1.8em;
- font-weight:600;
-}
-
-.social li a:hover {
- color:#011833;
 }
