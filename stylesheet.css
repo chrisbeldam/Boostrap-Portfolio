@@ -100,6 +100,10 @@ header {
  height:300px;
  padding:2% 0;
 }
+
+.work p {
+    text-align:center;
+}
 .work h3 {
  padding:4% 0;
 }
@@ -149,7 +153,7 @@ header {
 
 .contact {
  width:100%;
- background-color:#011833;
+ border: 3px solid rgb(10,129,209); 
  padding:5% 0;
  margin-top:5%;
  clear:both;
