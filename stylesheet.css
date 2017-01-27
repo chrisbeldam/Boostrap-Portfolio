@@ -2,31 +2,15 @@ body {
  background-color:#f9f9f9;
 }
 
-a {
- -o-transition:.5s;
- -ms-transition:.5s;
- -moz-transition:.5s;
- -webkit-transition:.5s;
- transition:.5s;
- text-decoration:none;
-}
-
-em {
- font-style:oblique;
-}
-
-strong {
- font-style:bold;
-}
-
 img {
  width:100%;
 }
 
 h1, h2, h3, h4, h5 {
- font-family: proxima-nova,sans-serif;
+ font-family: sans-serif;
  font-style: normal;
  text-align:center;
+ color:black;
 } 
 
 h3 {
@@ -49,7 +33,7 @@ header {
 .introduction {
  max-width: 960px;
  margin:0 auto;
- padding:8% 0;
+ padding:6% 0;
 }
 
 .introduction h1 {
@@ -69,14 +53,21 @@ header {
  font-weight:300;
  text-transform:capitalize;
  letter-spacing:0.09em;
+ margin-bottom:30px;
 }
 
+.introduction a {
+    color:white;
+    text-align: center;
+    padding-left:42%;
+    text-decoration: none;
+}
 /*Whole website wrapper*/
 
 .wrapper {
  max-width:960px;
  margin:0 auto;
- font-family: proxima-nova,sans-serif;
+ font-family: sans-serif;
  -webkit-animation-delay: 4s; /* Chrome, Safari, Opera */
  animation-delay: 2s;
 }
@@ -84,22 +75,17 @@ header {
 /*About Section CSS*/
 
 .about {
- padding:4% 0;
+ padding:3% 0;
 }
 .about p {
- font-family: proxima-nova,sans-serif;
- font-style: normal;
+ font-family: sans-serif;
  font-weight: 300;
- line-height: 1.8;
- color: #616569;
- letter-spacing: .03em;
+ line-height: 1.7;
+ color: black;
  margin: 10px auto;
  font-size:1.5em;
  padding:2% 0;
-}
-.about p a {
- color:#E1CCC9;
- border-bottom:2px solid;
+ text-align: center;
 }
 
 /*Work Section CSS*/
@@ -112,26 +98,10 @@ header {
 .work p {
     text-align:center;
 }
-.work h3 {
- padding:4% 0;
-}
-.text-box {
- float: left;
- text-align:left;
- width:480px;
- background-color:white;
- height:100%;
-}
-.text-box-content {
- padding:4% 8%;
-}
-.text-box-content p {
- line-height: 1.8;
- color: #616569;
- letter-spacing: .03em;
- font-size:1em;
-}
 
+.work h3 {
+ padding:1% 0;
+}
 
 /*Button CSS*/
 
@@ -147,6 +117,7 @@ header {
  text-transform:uppercase;
  margin-top:4%;
 }
+
 .button:hover {
  color:white;
  background-color:rgb(10,129,209); 
@@ -158,12 +129,12 @@ header {
 }
 
 /*Image floating properties*/
-.left {
+/*.left {
  float:left;
 }
 .right {
  float:right;
-}
+}*/
 
 /*Contact CSS*/
 
@@ -172,7 +143,7 @@ header {
  border: 3px solid rgb(10,129,209); 
  padding:5% 0;
  margin-top:5%;
- margin-bottom: 5px;
+ margin-bottom: 5%;
  clear:both;
 }
 
@@ -182,23 +153,32 @@ header {
  text-align:center;
 }
 .contact-content h4 {
- font-size:1.875em;
  padding:1% 0;
- color:white;
- font-weight:600;
- letter-spacing:0.04em;
+ color:black;
+ font-weight:bold;
 }
 .contact-content a {
- color:#E0CCC8;
+ color:rgb(10,129,209); 
  text-decoration:none;
 }
 
-.image-divider {
+/*Image Divider CSS*/
+/*Used to seperate the project work from the footer section and the image from the introduction section*/
+
+
+.image-dividertop {
+ padding:15% 0;
+ margin-bottom:5%;
+ background: url(img/html.jpg);
+ background-size: cover;
+ background-position: center top;
+}
+
+
+.image-dividerbottom {
  padding:15% 0;
  margin-top:60px;
- background:
- /* bottom, image */
- url(img/desk.jpg);
+ background: url(img/desk.jpg);
  background-size: cover;
  background-position: center top;
 }
@@ -219,16 +199,12 @@ footer {
  max-width:960px;
  padding:2% 0;
  margin:0 auto;
- font-family: proxima-nova,sans-serif;
- font-style: normal;
- font-weight: 300;
- line-height: 1.4;
+ font-family: sans-serif;
  color: white;
- letter-spacing: .03em;
- font-size:1em;
+ letter-spacing: 1px;
 }
 
 .footer-content p {
     text-align: center;
-    margin: 9px 0 13px;
+    margin: 0px 0 13px;
 }
