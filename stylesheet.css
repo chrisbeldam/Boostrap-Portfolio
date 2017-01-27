@@ -9,6 +9,8 @@ h1, h2, h3, h4, h5 {
  color:black;
 } 
 
+img { max-width: 100%;}
+
 h3 {
  text-transform:capitalize;
  font-size:1.875em;
@@ -30,10 +32,11 @@ header {
  max-width: 960px;
  margin:0 auto;
  padding:6% 0;
+ text-align: center;
 }
 
 .introduction h1 {
- font-size: 6em;
+ font-size: 60px;
  text-align: center;
  color: #fff;
  text-transform: uppercase;
@@ -43,7 +46,7 @@ header {
 }
 
 .introduction h2 {
- font-size: 2em;
+ font-size: 32px;
  text-align:center;
  color:#fff;
  font-weight:300;
@@ -55,7 +58,6 @@ header {
 .introduction a {
     color:white;
     text-align: center;
-    padding-left:42%;
     text-decoration: none;
 }
 /*Whole website wrapper*/
@@ -204,3 +206,4 @@ footer {
     text-align: center;
     margin: 0px 0 13px;
 }
+
