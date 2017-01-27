@@ -59,6 +59,7 @@ header {
     color:white;
     text-align: center;
     text-decoration: none;
+    font-size:20px;
 }
 /*Whole website wrapper*/
 
@@ -81,7 +82,7 @@ header {
  line-height: 1.7;
  color: black;
  margin: 10px auto;
- font-size:1.5em;
+ font-size:18px;
  padding:2% 0;
  text-align: center;
 }
@@ -95,16 +96,23 @@ header {
 
 .work p {
     text-align:center;
+    font-size:18px;
 }
 
 .work h3 {
  padding:1% 0;
+ font-size:38px;
+}
+
+#myworkheading {
+    font-weight: bold;
+    margin-top:28px;
 }
 
 /*Button CSS*/
 
 .button {
- padding:5% 3%;
+ padding:5%;
  border: 3px solid rgb(10,129,209); 
  letter-spacing:0.2em;
  text-decoration:none;
@@ -120,6 +128,7 @@ header {
  color:white;
  background-color:rgb(10,129,209); 
 }
+
 .image-area {
  width:480px;
  height:300px;
@@ -175,7 +184,7 @@ header {
 
 .image-dividerbottom {
  padding:15% 0;
- margin-top:60px;
+ margin-top:65px;
  background: url(img/desk.jpg);
  background-size: cover;
  background-position: center top;
