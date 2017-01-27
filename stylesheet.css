@@ -2,10 +2,6 @@ body {
  background-color:#f9f9f9;
 }
 
-img {
- width:100%;
-}
-
 h1, h2, h3, h4, h5 {
  font-family: sans-serif;
  font-style: normal;
@@ -17,7 +13,7 @@ h3 {
  text-transform:capitalize;
  font-size:1.875em;
  padding:0 0 1% 0;
- color:#001833;
+ color:black;
  font-weight:800;
 }
 
