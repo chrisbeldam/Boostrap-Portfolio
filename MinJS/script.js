@@ -1,0 +1,1 @@
+$(document).ready(function(){swal("Hello, Welcome!","Enter the site with the button below","success")});
