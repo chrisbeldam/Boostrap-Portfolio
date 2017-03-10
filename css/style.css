@@ -72,6 +72,10 @@ header {
     font-size: 18px;
     padding: 2% 0;
     text-align: center; }
+  .about ol {
+    text-align: center; }
+  .about li {
+    text-align: center; }
 
 /*Work Section CSS*/
 .work {
