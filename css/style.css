@@ -164,7 +164,7 @@ header {
 footer {
   background-color: #0a81d1;
   color: white;
-  padding: 2% 0;
+  padding: 1% 0;
   width: 100%;
   clear: both;
   height: 100px; }
@@ -177,5 +177,4 @@ footer {
   color: white;
   letter-spacing: 1px; }
   .footer-content p {
-    text-align: center;
-    margin: 0px 0 13px; }
+    text-align: center; }
